@@ -168,7 +168,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 REST_FRAMEWORK = {}
 
 # --------------------------------------------------
-# --------------------------------------------------
 # CORS
 # --------------------------------------------------
 
@@ -179,7 +178,13 @@ CORS_ALLOWED_ORIGINS = [
 
 CORS_ALLOW_CREDENTIALS = True
 
-CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_HEADERS = [
+    "*",
+]
+
+CORS_ALLOW_METHODS = [
+    "*",
+]
 
 # --------------------------------------------------
 # Gemini
