@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #020617;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Beautiful Gradient Background */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background:
+    radial-gradient(circle at top left,
+      rgba(59,130,246,.12),
+      transparent 35%),
+
+    radial-gradient(circle at bottom right,
+      rgba(139,92,246,.12),
+      transparent 35%);
+
+  z-index: -1;
+}
