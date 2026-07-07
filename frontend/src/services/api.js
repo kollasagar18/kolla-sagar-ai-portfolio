@@ -1,12 +1,17 @@
-const BASE_URL = "http://127.0.0.1:8000/api";
+const BASE_URL =
+  import.meta.env.VITE_API_URL + "/api";
 
 async function request(endpoint) {
 
-  const response = await fetch(`${BASE_URL}${endpoint}`);
+  const response = await fetch(
+    `${BASE_URL}${endpoint}`
+  );
 
   if (!response.ok) {
 
-    throw new Error(`API Error: ${response.status}`);
+    throw new Error(
+      `API Error: ${response.status}`
+    );
 
   }
 
