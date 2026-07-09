@@ -21,7 +21,8 @@ portfolio = {
     "about": {
 
         "name": "Kolla Sagar",
-
+        "image": "/profile.png",
+        "about_image": "/profile1.png",
         "title": "Backend Developer",
 
         "tagline":

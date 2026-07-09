@@ -71,7 +71,8 @@ const AboutImage = () => {
 
         <img
 
-          src="/public/profile1.png"
+          src={portfolio.about.about_image}
+        
 
           alt={about.name}
 
