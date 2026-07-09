@@ -30,7 +30,7 @@ portfolio = {
 
         "summary":
         """
-        Hi, I'm Kolla Sagar — a passionate Backend Developer specializing in Python, Django, Django REST Framework, FastAPI, PostgreSQL, MySQL, and RESTful APIs. I enjoy building scalable, secure, and high-performance backend systems that power modern web applications. My experience includes developing authentication and authorization systems, designing database-driven applications, integrating third-party APIs, and deploying applications using modern cloud platforms such as Railway and Render. I'm also passionate about AI-powered applications, automation, and writing clean, maintainable code following software engineering best practices. With 500+ LeetCode problems solved and real-world internship experience, I'm continuously learning new technologies and actively seeking Software Engineer and Backend Developer opportunities where I can build impactful products and grow as an engineer.
+        Hi, I'm Kolla Sagar — a passionate Backend Developer specializing in Python, Django, Django REST Framework, FastAPI, PostgreSQL, MySQL, and RESTful APIs. I enjoy building scalable, secure, and high-performance backend systems that power modern web applications. My experience includes developing authentication and authorization systems, designing database-driven applications, integrating third-party APIs, and deploying applications using modern cloud platforms such as Railway and Render. I'm also passionate about AI-powered applications, automation, and writing clean, maintainable code following software engineering best practices. With 400+ LeetCode and hackerrank  problems solved and real-world internship experience, I'm continuously learning new technologies and actively seeking Software Engineer and Backend Developer opportunities where I can build impactful products and grow as an engineer.
         """,
 
         "location": "Andhra Pradesh, India",
@@ -164,7 +164,7 @@ portfolio = {
 
         "certificates": 5,
 
-        "leetcode": 500,
+        "leetcode": 400,
 
         "experience": "0 Years"
 
@@ -226,20 +226,20 @@ portfolio = {
 
     },
 
-    # =====================================================
-    # PROJECTS
-    # =====================================================
+# =====================================================
+# PROJECTS
+# =====================================================
 
        
 
-        # =====================================================
-        # PROJECT 1
-        # =====================================================
+# =====================================================
+# PROJECT 1
+# =====================================================
  "projects":[
        {
         "id": 1,
         "featured": True,
-        "title": "AI Smart Stock Management System",
+        "title": "SmartStock AI",
         "category": "Backend Development | AI",
         "status": "Completed",
         "role": "Backend Developer",
@@ -321,191 +321,202 @@ portfolio = {
         "github": "https://github.com/kollasagar18/shop_stock.git",
         "demo": "https://drive.google.com/file/d/1_JIK09hvph3VuHAvIhmqK62w9YuTRZLs/view?usp=sharing"
         },
-        # =====================================================
-        # PROJECT 2
-        # =====================================================
+# =====================================================
+# PROJECT 2
+# =====================================================
 
         {
-            "id": 2,
+    "id": 2,
 
-            "featured": True,
+    "featured": True,
 
-            "title": "Notes Manager Application",
+    "title": "PortfolioGPT AI",
 
-            "category": "Full Stack Development",
+    "category": "AI + Full Stack Development",
 
-            "status": "Completed",
+    "status": "Completed",
 
-            "role": "Full Stack Developer",
+    "role": "Full Stack Developer",
 
-            "team": "Individual",
+    "team": "Individual",
 
-            "duration": "2 Months",
+    "duration": "2 Months",
 
-            "image": "/projects/notes-manager.png",
+    "image": "/projects/portfolio-ai.png",
 
-            "description":
-            "A secure full-stack Notes Manager Application built using the MERN stack that enables users to register, verify accounts via Email or SMS OTP, authenticate with JWT, and manage personal notes through a responsive dashboard. The application also includes an Admin Panel for user and note management.",
+    "description":
+    "PortfolioGPT AI is a modern AI-powered developer portfolio that combines a professional React frontend with a Django REST Framework backend and Google Gemini AI. Recruiters can explore projects, skills, internships, certifications, education, and contact information through an intelligent conversational assistant. The application also includes dynamic portfolio APIs, downloadable resume, EmailJS-powered contact form, and cloud deployment using Netlify and Render.",
 
-            "problem":
-            "Traditional note-taking applications often lack secure authentication, account verification, role-based access control, and centralized management, making personal data less secure and difficult to administer.",
+    "problem":
+    "Traditional portfolios are static and require recruiters to manually browse different sections to understand a developer's experience. They lack intelligent interaction, centralized portfolio management, and real-time question answering.",
 
-            "solution":
-            "Developed a modern Notes Manager Application with JWT authentication, Email and SMS OTP verification, password reset functionality, protected REST APIs, role-based access control, and a complete admin dashboard for managing users and notes.",
+    "solution":
+    "Developed an AI-powered interactive portfolio that allows recruiters to ask natural language questions about projects, technical skills, internships, education, certifications, and contact information. Built a scalable backend API using Django REST Framework and integrated Google Gemini AI to provide accurate portfolio responses through a conversational interface.",
 
-            "tech": [
+    "tech": [
 
-                "React.js",
+        "React.js",
 
-                "TypeScript",
+        "Vite",
 
-                "Node.js",
+        "Tailwind CSS",
 
-                "Express.js",
+        "Python",
 
-                "MongoDB",
+        "Django",
 
-                "Mongoose",
+        "Django REST Framework",
 
-                "JWT Authentication",
+        "Google Gemini AI",
 
-                "Tailwind CSS",
+        "REST APIs",
 
-                "Nodemailer",
+        "EmailJS",
 
-                "Twilio"
+        "Render",
 
-            ],
+        "Netlify",
 
-            "features": [
+        "Git",
 
-                "User Registration",
+        "GitHub"
 
-                "JWT Authentication",
+    ],
 
-                "Email OTP Verification",
+    "features": [
 
-                "SMS OTP Verification",
+        "AI Portfolio Assistant",
 
-                "Forgot Password",
+        "Google Gemini Integration",
 
-                "Password Reset",
+        "Interactive Chat Interface",
 
-                "Create Notes",
+        "Dynamic Portfolio APIs",
 
-                "Edit Notes",
+        "Projects Showcase",
 
-                "Delete Notes",
+        "Skills Section",
 
-                "Responsive Dashboard",
+        "Experience Timeline",
 
-                "Admin Dashboard",
+        "Certificates Gallery",
 
-                "User Management",
+        "Responsive Design",
 
-                "Notes Management",
+        "Resume Download",
 
-                "Protected Routes"
+        "Email Contact Form",
 
-            ],
+        "Quick AI Actions",
 
-            "highlights": [
+        "Voice Input Support",
 
-                "Built using MERN Stack",
+        "Cloud Deployment"
 
-                "Secure JWT Authentication",
+    ],
 
-                "Email & SMS OTP Verification",
+    "highlights": [
 
-                "MongoDB Database Integration",
+        "Built with React + Django",
 
-                "RESTful API Architecture",
+        "Integrated Google Gemini AI",
 
-                "Role-Based Access Control",
+        "RESTful Backend Architecture",
 
-                "Password Hashing with bcrypt",
+        "Dynamic Portfolio APIs",
 
-                "Responsive React Frontend"
+        "Modern Responsive UI",
 
-            ],
+        "Professional Recruiter Experience",
 
-            "responsibilities": [
+        "Cloud Deployment using Render & Netlify",
 
-                "Designed MongoDB Database",
+        "EmailJS Contact Integration"
 
-                "Developed REST APIs using Express.js",
+    ],
 
-                "Implemented JWT Authentication",
+    "responsibilities": [
 
-                "Integrated Email OTP using Nodemailer",
+        "Designed complete UI/UX using React and Tailwind CSS",
 
-                "Integrated SMS OTP using Twilio",
+        "Developed REST APIs using Django REST Framework",
 
-                "Built React Frontend",
+        "Integrated Google Gemini AI Assistant",
 
-                "Created Admin Dashboard",
+        "Built Portfolio Context API architecture",
 
-                "Tested APIs and Application Flow"
+        "Designed reusable React components",
 
-            ],
+        "Integrated EmailJS Contact Form",
 
-            "learning": [
+        "Managed deployment on Render and Netlify",
 
-                "JWT Authentication",
+        "Performed debugging, testing, and optimization"
 
-                "REST API Development",
+    ],
 
-                "MongoDB & Mongoose",
+    "learning": [
 
-                "OTP Authentication",
+        "Full Stack Application Development",
 
-                "React State Management",
+        "Django REST Framework",
 
-                "Backend Security",
+        "Google Gemini AI Integration",
 
-                "Role-Based Authorization",
+        "REST API Design",
 
-                "Full Stack Application Development"
+        "React Context API",
 
-            ],
+        "State Management",
 
-            "future_improvements": [
+        "Cloud Deployment",
 
-                "Rich Text Editor",
+        "Frontend-Backend Integration",
 
-                "Note Categories",
+        "EmailJS Integration",
 
-                "Search & Filters",
+        "Production Debugging"
 
-                "File & Image Upload",
+    ],
 
-                "Archive Notes",
+    "future_improvements": [
 
-                "Dark Mode",
+        "Admin Dashboard",
 
-                "Cloud Deployment",
+        "Database-driven Portfolio",
 
-                "Docker Support",
+        "Authentication System",
 
-                "Real-time Sync",
+        "Portfolio Analytics",
 
-                "AI Note Summarization"
+        "Dark & Light Theme",
 
-            ],
+        "Multi-language Support",
 
-            "github": "https://github.com/kollasagar18/Notes-Manager-App.git",
+        "Voice Conversation",
 
-            "demo": "https://notes-manager-app-user.netlify.app/"
+        "AI Resume Reviewer",
 
-        },
-                        # =====================================================
-                # PROJECT 3
-                # =====================================================
+        "Live Coding Profile Integration",
+
+        "Visitor Analytics",
+
+        "AI Interview Assistant"
+
+    ],
+
+    "github": "https://github.com/kollasagar18/kolla-sagar-ai-portfolio",
+
+    "demo": "https://sagar-portfolio-ai.netlify.app/"
+},
+# =====================================================
+# PROJECT 3
+# =====================================================
 
                 {
         "id": 3,
         "featured": True,
-        "title": "PrimeTrade Product Management System",
+        "title": "PrimeTrade Commerce API",
         "category": "Backend + Full Stack Development",
         "status": "Completed",
         "role": "Backend Developer",
@@ -616,7 +627,7 @@ portfolio = {
         {
         "id": 4,
         "featured": True,
-        "title": "VIKMO Inventory Management System",
+        "title": "Inventory Platform",
         "category": "Backend + Full Stack Development",
         "status": "Completed",
         "role": "Backend Developer",
@@ -1034,7 +1045,7 @@ portfolio = {
     # =====================================================
 
     "achievements": [
-    "Solved 500+ LeetCode Problems",
+    "Solved 400+ LeetCode Problems",
     "Completed 2 Software Development Internships",
     "Built 6+ Full Stack & Backend Projects",
     "Developed AI-Powered Applications using Python and Machine Learning",
