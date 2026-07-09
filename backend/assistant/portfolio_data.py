@@ -330,7 +330,7 @@ portfolio = {
 
     "featured": True,
 
-    "title": "PortfolioGPT AI",
+    "title": "Portfolio Copilot",
 
     "category": "AI + Full Stack Development",
 
