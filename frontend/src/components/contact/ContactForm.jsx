@@ -25,13 +25,32 @@ const ContactForm = () => {
 
     setLoading(true);
 
+    console.log(
+      "Service ID:",
+      import.meta.env.VITE_EMAILJS_SERVICE_ID
+    );
+
+    console.log(
+      "Template ID:",
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+    );
+
+    console.log(
+      "Public Key:",
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    );
+
+    console.log("Form Data:", form);
+
     try {
-      await emailjs.send(
+      const response = await emailjs.send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
+
+      console.log("EmailJS Success:", response);
 
       alert("✅ Message sent successfully!");
 
@@ -41,10 +60,14 @@ const ContactForm = () => {
         subject: "",
         message: "",
       });
-
     } catch (error) {
-      console.error(error);
-      alert("❌ Failed to send message.");
+      console.error("EmailJS Error:", error);
+
+      alert(
+        error?.text ||
+          error?.message ||
+          JSON.stringify(error)
+      );
     }
 
     setLoading(false);
@@ -63,11 +86,9 @@ const ContactForm = () => {
       </h2>
 
       <form onSubmit={sendEmail} className="space-y-6">
-
         {/* Name */}
 
         <div>
-
           <label className="block mb-2 text-slate-300">
             Full Name
           </label>
@@ -81,13 +102,11 @@ const ContactForm = () => {
             required
             className="w-full px-5 py-4 rounded-xl bg-slate-800 border border-slate-700 focus:border-cyan-400 focus:outline-none"
           />
-
         </div>
 
         {/* Email */}
 
         <div>
-
           <label className="block mb-2 text-slate-300">
             Email Address
           </label>
@@ -101,13 +120,11 @@ const ContactForm = () => {
             required
             className="w-full px-5 py-4 rounded-xl bg-slate-800 border border-slate-700 focus:border-cyan-400 focus:outline-none"
           />
-
         </div>
 
         {/* Subject */}
 
         <div>
-
           <label className="block mb-2 text-slate-300">
             Subject
           </label>
@@ -121,13 +138,11 @@ const ContactForm = () => {
             required
             className="w-full px-5 py-4 rounded-xl bg-slate-800 border border-slate-700 focus:border-cyan-400 focus:outline-none"
           />
-
         </div>
 
         {/* Message */}
 
         <div>
-
           <label className="block mb-2 text-slate-300">
             Message
           </label>
@@ -141,22 +156,20 @@ const ContactForm = () => {
             required
             className="w-full px-5 py-4 rounded-xl bg-slate-800 border border-slate-700 focus:border-cyan-400 focus:outline-none resize-none"
           />
-
         </div>
+
+        {/* Button */}
 
         <button
           type="submit"
           disabled={loading}
-          className="w-full flex justify-center items-center gap-3 bg-blue-600 hover:bg-blue-700 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg"
+          className="w-full flex justify-center items-center gap-3 bg-blue-600 hover:bg-blue-700 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105 disabled:opacity-60"
         >
           <FaPaperPlane />
 
           {loading ? "Sending..." : "Send Message"}
-
         </button>
-
       </form>
-
     </motion.div>
   );
 };
