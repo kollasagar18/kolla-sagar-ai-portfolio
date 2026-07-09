@@ -34,26 +34,7 @@ const AchievementCards = () => {
 
   const achievements = [
 
-    {
-      number: `${portfolio.projects.length}+`,
-      title: "Projects Completed",
-    },
-
-    {
-      number: `${portfolio.certificates.length}+`,
-      title: "Certificates Earned",
-    },
-
-    {
-      number: `${portfolio.experience.length}`,
-      title: "Internships",
-    },
-
-    {
-      number: portfolio.about.leetcode || "300+",
-      title: "LeetCode Problems",
-    },
-
+    
   ];
 
   return (

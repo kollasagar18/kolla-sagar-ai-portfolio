@@ -100,7 +100,7 @@ const SkillsGrid = () => {
     },
     {
       category: "Data Science & AI",
-      items: createSkillObjects(portfolio.skills.ai),
+      items: createSkillObjects(portfolio.skills.ai_ml),
     },
     {
       category: "Tools & Platforms",

@@ -145,21 +145,7 @@ const HeroLeft = () => {
 
       {/* Tech Stack */}
 
-      <div className="flex flex-wrap gap-3">
-
-        {techStack.map((tech) => (
-
-          <TechBadge
-
-            key={tech}
-
-            name={tech}
-
-          />
-
-        ))}
-
-      </div>
+      
 
       {/* Buttons */}
 

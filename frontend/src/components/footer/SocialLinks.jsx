@@ -17,7 +17,7 @@ const SocialLinks = () => {
       <div className="flex gap-5">
 
         <a
-          href="https://github.com/YOUR_USERNAME"
+          href="https://github.com/kollasagar18"
           target="_blank"
           rel="noreferrer"
           className="w-14 h-14 rounded-xl bg-slate-800 flex items-center justify-center text-2xl hover:bg-blue-600 transition"
@@ -26,7 +26,7 @@ const SocialLinks = () => {
         </a>
 
         <a
-          href="https://linkedin.com/in/YOUR_PROFILE"
+          href="https://www.linkedin.com/in/kolla-sagar18/"
           target="_blank"
           rel="noreferrer"
           className="w-14 h-14 rounded-xl bg-slate-800 flex items-center justify-center text-2xl hover:bg-blue-600 transition"
@@ -35,7 +35,7 @@ const SocialLinks = () => {
         </a>
 
         <a
-          href="https://leetcode.com/u/YOUR_USERNAME/"
+          href="https://leetcode.com/u/kollasagar116/"
           target="_blank"
           rel="noreferrer"
           className="w-14 h-14 rounded-xl bg-slate-800 flex items-center justify-center text-2xl hover:bg-blue-600 transition"

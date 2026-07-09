@@ -1,4 +1,4 @@
-const username = "YOUR_GITHUB_USERNAME";
+const username = "kollasagar18";
 
 const GitHubCard = () => {
   return (

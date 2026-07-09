@@ -29,15 +29,7 @@ portfolio = {
 
         "summary":
         """
-        I'm a Backend Developer specializing in Python, Django,
-        Django REST Framework, FastAPI and PostgreSQL.
-
-        I enjoy building scalable backend systems, REST APIs,
-        authentication systems and AI-powered applications.
-
-        I'm actively looking for Software Engineer /
-        Backend Developer opportunities where I can
-        contribute and continue learning.
+        Hi, I'm Kolla Sagar — a passionate Backend Developer specializing in Python, Django, Django REST Framework, FastAPI, PostgreSQL, MySQL, and RESTful APIs. I enjoy building scalable, secure, and high-performance backend systems that power modern web applications. My experience includes developing authentication and authorization systems, designing database-driven applications, integrating third-party APIs, and deploying applications using modern cloud platforms such as Railway and Render. I'm also passionate about AI-powered applications, automation, and writing clean, maintainable code following software engineering best practices. With 500+ LeetCode problems solved and real-world internship experience, I'm continuously learning new technologies and actively seeking Software Engineer and Backend Developer opportunities where I can build impactful products and grow as an engineer.
         """,
 
         "location": "Andhra Pradesh, India",
@@ -78,7 +70,7 @@ portfolio = {
 
             "Django REST Framework",
 
-            "FastAPI",
+            
 
             "REST API",
 
@@ -92,9 +84,9 @@ portfolio = {
 
             "HTML",
 
-            "CSS",
+          
 
-            "Tailwind CSS",
+            
 
         ],
 
@@ -104,8 +96,7 @@ portfolio = {
 
             "MySQL",
 
-            "SQLite",
-
+            
         ],
 
         "ai_ml": [
@@ -134,7 +125,7 @@ portfolio = {
 
             "Netlify",
 
-            "Vite",
+            
 
         ],
 
@@ -166,15 +157,15 @@ portfolio = {
 
     "statistics": {
 
-        "projects": 4,
+        "projects": 5,
 
         "internships": 2,
 
         "certificates": 5,
 
-        "leetcode": 300,
+        "leetcode": 500,
 
-        "experience": "1+ Years"
+        "experience": "0 Years"
 
     },
 
@@ -184,20 +175,20 @@ portfolio = {
 
     "contact": {
 
-        "email": "YOUR_EMAIL@gmail.com",
+        "email": "kollasagar.02@gmail.com",
 
-        "phone": "+91 XXXXXXXXXX",
+        "phone": "+91 9398780796",
 
         "location": "Andhra Pradesh, India",
 
         "linkedin":
-        "https://linkedin.com/in/YOUR_LINKEDIN",
+        "https://www.linkedin.com/in/kolla-sagar18/",
 
         "github":
-        "https://github.com/YOUR_GITHUB",
+        "https://github.com/kollasagar18",
 
         "leetcode":
-        "https://leetcode.com/u/YOUR_USERNAME",
+        "https://leetcode.com/u/kollasagar116/",
 
         "resume": "/resume.pdf"
 
@@ -224,13 +215,13 @@ portfolio = {
     "social": {
 
         "github":
-        "https://github.com/YOUR_GITHUB",
+        "https://github.com/kollasagar18",
 
         "linkedin":
-        "https://linkedin.com/in/YOUR_LINKEDIN",
+        "https://www.linkedin.com/in/kolla-sagar18/",
 
         "leetcode":
-        "https://leetcode.com/u/YOUR_USERNAME"
+        "https://leetcode.com/u/kollasagar116/",
 
     },
 
@@ -238,419 +229,107 @@ portfolio = {
     # PROJECTS
     # =====================================================
 
-        "projects": [
+       
 
         # =====================================================
         # PROJECT 1
         # =====================================================
-
-        {
-
-            "id": 1,
-
-            "featured": True,
-
-            "title": "AI Smart Stock Management System",
-
-            "category": "AI + Backend Development",
-
-            "status": "Completed",
-
-            "role": "Backend Developer",
-
-            "team": "Individual",
-
-            "duration": "3 Months",
-
-            "image": "/projects/stock.png",
-
-            "description":
-            "An AI-powered inventory management system that predicts stock demand, manages products, and provides analytics through a modern dashboard.",
-
-            "problem":
-            "Retail stores struggle with manual inventory management, stock shortages, and inaccurate demand forecasting.",
-
-            "solution":
-            "Designed and developed an intelligent inventory management platform with AI-based stock prediction, secure authentication, REST APIs, and analytics.",
-
-            "tech": [
-
-                "Python",
-
-                "Django",
-
-                "Django REST Framework",
-
-                "React",
-
-                "PostgreSQL",
-
-                "Scikit-learn",
-
-            ],
-
-            "features": [
-
-                "JWT Authentication",
-
-                "Role Based Access",
-
-                "Inventory Management",
-
-                "Product Management",
-
-                "Dealer Management",
-
-                "Order Management",
-
-                "Sales Reports",
-
-                "Dashboard Analytics",
-
-                "Stock Prediction",
-
-                "REST APIs",
-
-                "Responsive UI"
-
-            ],
-
-            "highlights": [
-
-                "Designed PostgreSQL database",
-
-                "Built scalable REST APIs",
-
-                "Implemented JWT Authentication",
-
-                "Integrated AI stock prediction",
-
-                "Optimized database queries",
-
-                "Responsive React Dashboard"
-
-            ],
-
-            "responsibilities": [
-
-                "Designed backend architecture",
-
-                "Developed REST APIs",
-
-                "Created authentication system",
-
-                "Integrated AI prediction",
-
-                "Managed PostgreSQL database",
-
-                "Connected frontend with backend"
-
-            ],
-
-            "learning": [
-
-                "Backend Architecture",
-
-                "REST API Design",
-
-                "JWT Authentication",
-
-                "AI Integration",
-
-                "Database Optimization"
-
-            ],
-
-            "future_improvements": [
-
-                "Barcode Scanner",
-
-                "Invoice Generator",
-
-                "Email Notifications",
-
-                "Supplier Dashboard",
-
-                "Cloud Deployment"
-
-            ],
-
-            "github": "",
-
-            "demo": ""
-
+ "projects":[
+       {
+        "id": 1,
+        "featured": True,
+        "title": "AI Smart Stock Management System",
+        "category": "Backend Development | AI",
+        "status": "Completed",
+        "role": "Backend Developer",
+        "team": "Individual",
+        "duration": "3 Months",
+        "image": "/projects/stock.png",
+
+        "description": "Developed a scalable AI-powered stock management system using Django REST Framework and React to manage products, inventory, dealers, and orders. Integrated secure JWT authentication and AI-based stock demand prediction for efficient inventory management.",
+
+        "problem": "Retail businesses face challenges in tracking inventory, managing dealer orders, preventing stock shortages, and forecasting future demand using manual processes.",
+
+        "solution": "Built a full-stack inventory management platform with secure authentication, REST APIs, dealer and order management, dashboard analytics, and AI-powered stock prediction to improve inventory planning and operational efficiency.",
+
+        "tech": [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "React",
+            "PostgreSQL",
+            "JWT Authentication",
+            "REST API",
+            "Scikit-learn",
+            "Git",
+            "Postman"
+        ],
+
+        "features": [
+            "JWT Authentication",
+            "Role-Based Access Control",
+            "Product Management",
+            "Inventory Management",
+            "Dealer Management",
+            "Order Management",
+            "Stock Validation",
+            "Dashboard Analytics",
+            "AI Stock Prediction",
+            "RESTful APIs",
+            "Responsive React Dashboard"
+        ],
+
+        "highlights": [
+            "Designed a normalized PostgreSQL database",
+            "Developed secure REST APIs using Django REST Framework",
+            "Implemented JWT-based authentication and authorization",
+            "Built complete inventory and order management modules",
+            "Integrated AI model for stock demand prediction",
+            "Connected React frontend with Django backend"
+        ],
+
+        "responsibilities": [
+            "Designed backend architecture and database schema",
+            "Developed REST APIs for products, inventory, dealers and orders",
+            "Implemented authentication and role-based authorization",
+            "Integrated AI prediction module",
+            "Managed PostgreSQL database",
+            "Tested APIs using Postman",
+            "Connected frontend with backend APIs"
+        ],
+
+        "learning": [
+            "Backend System Design",
+            "REST API Development",
+            "JWT Authentication",
+            "PostgreSQL Database Design",
+            "Role-Based Authorization",
+            "AI Integration",
+            "Frontend-Backend Integration"
+        ],
+
+        "future_improvements": [
+            "Barcode Scanner Integration",
+            "Invoice Generation",
+            "Email Notifications",
+            "Supplier Dashboard",
+            "Real-time Inventory Monitoring",
+            "Cloud Deployment with Docker"
+        ],
+
+        "github": "https://github.com/kollasagar18/shop_stock.git",
+        "demo": "https://drive.google.com/file/d/1_JIK09hvph3VuHAvIhmqK62w9YuTRZLs/view?usp=sharing"
         },
-
         # =====================================================
         # PROJECT 2
         # =====================================================
 
         {
-
             "id": 2,
 
             "featured": True,
 
-            "title": "Inventory Management System",
-
-            "category": "Backend Development",
-
-            "status": "Completed",
-
-            "role": "Backend Developer",
-
-            "team": "Individual",
-
-            "duration": "2 Months",
-
-            "image": "/projects/inventory.png",
-
-            "description":
-            "A complete inventory management platform with dealer management, product management, order processing, and secure REST APIs.",
-
-            "problem":
-            "Small businesses often manage inventory manually, leading to inaccurate stock tracking and delayed order processing.",
-
-            "solution":
-            "Developed a centralized inventory system with dealer management, order management, secure authentication, and reporting features.",
-
-            "tech": [
-
-                "Python",
-
-                "Django",
-
-                "Django REST Framework",
-
-                "PostgreSQL",
-
-                "Postman"
-
-            ],
-
-            "features": [
-
-                "Dealer Management",
-
-                "Inventory Tracking",
-
-                "Product CRUD",
-
-                "Order Management",
-
-                "REST APIs",
-
-                "Authentication",
-
-                "Role Based Access",
-
-                "Reports"
-
-            ],
-
-            "highlights": [
-
-                "Built using Django REST Framework",
-
-                "Normalized PostgreSQL database",
-
-                "RESTful API architecture",
-
-                "Role Based Authentication",
-
-                "Optimized SQL Queries"
-
-            ],
-
-            "responsibilities": [
-
-                "Database Design",
-
-                "Backend Development",
-
-                "REST API Development",
-
-                "Authentication",
-
-                "Testing APIs using Postman"
-
-            ],
-
-            "learning": [
-
-                "Database Relationships",
-
-                "API Development",
-
-                "Authentication",
-
-                "Django ORM",
-
-                "REST Standards"
-
-            ],
-
-            "future_improvements": [
-
-                "AI Stock Prediction",
-
-                "Barcode Support",
-
-                "Cloud Deployment",
-
-                "Excel Import",
-
-                "Dashboard Charts"
-
-            ],
-
-            "github": "",
-
-            "demo": ""
-
-        },
-                # =====================================================
-        # PROJECT 3
-        # =====================================================
-
-        {
-
-            "id": 3,
-
-            "featured": True,
-
-            "title": "Recruiter Mail Sender",
-
-            "category": "Desktop Application",
-
-            "status": "Completed",
-
-            "role": "Python Developer",
-
-            "team": "Individual",
-
-            "duration": "1 Month",
-
-            "image": "/projects/recruiter.png",
-
-            "description":
-            "Desktop application for sending personalized recruiter emails automatically using Excel data and Gmail SMTP.",
-
-            "problem":
-            "Sending emails manually to hundreds of recruiters is time-consuming and repetitive.",
-
-            "solution":
-            "Built a desktop application that imports recruiter information from Excel, personalizes emails, and sends them automatically using Gmail SMTP.",
-
-            "tech": [
-
-                "Python",
-
-                "CustomTkinter",
-
-                "SMTP",
-
-                "OpenPyXL",
-
-                "Excel"
-
-            ],
-
-            "features": [
-
-                "Bulk Email Sending",
-
-                "Personalized Email Templates",
-
-                "Excel Import",
-
-                "Recruiter Search",
-
-                "Edit Recruiter",
-
-                "Delete Recruiter",
-
-                "Email Preview",
-
-                "Settings Window",
-
-                "Gmail App Password Support"
-
-            ],
-
-            "highlights": [
-
-                "Automatic Email Sending",
-
-                "Desktop GUI using CustomTkinter",
-
-                "Excel Data Management",
-
-                "SMTP Integration",
-
-                "Professional Recruiter Management"
-
-            ],
-
-            "responsibilities": [
-
-                "Designed Desktop UI",
-
-                "Implemented SMTP Email Service",
-
-                "Integrated Excel Database",
-
-                "Created Recruiter Management",
-
-                "Built Search Functionality"
-
-            ],
-
-            "learning": [
-
-                "SMTP",
-
-                "Desktop Development",
-
-                "Excel Automation",
-
-                "Python GUI",
-
-                "Application Architecture"
-
-            ],
-
-            "future_improvements": [
-
-                "AI Email Generation",
-
-                "Email Tracking",
-
-                "Cloud Sync",
-
-                "LinkedIn Integration",
-
-                "Multiple Email Accounts"
-
-            ],
-
-            "github": "",
-
-            "demo": ""
-
-        },
-
-        # =====================================================
-        # PROJECT 4
-        # =====================================================
-
-        {
-
-            "id": 4,
-
-            "featured": True,
-
-            "title": "Notes Manager",
+            "title": "Notes Manager Application",
 
             "category": "Full Stack Development",
 
@@ -662,36 +341,54 @@ portfolio = {
 
             "duration": "2 Months",
 
-            "image": "/projects/notes.png",
+            "image": "/projects/notes-manager.png",
 
             "description":
-            "A modern MERN Notes application with secure authentication, CRUD operations, and responsive design.",
+            "A secure full-stack Notes Manager Application built using the MERN stack that enables users to register, verify accounts via Email or SMS OTP, authenticate with JWT, and manage personal notes through a responsive dashboard. The application also includes an Admin Panel for user and note management.",
 
             "problem":
-            "Users need a secure and organized way to store personal notes online.",
+            "Traditional note-taking applications often lack secure authentication, account verification, role-based access control, and centralized management, making personal data less secure and difficult to administer.",
 
             "solution":
-            "Developed a complete Notes Management application using the MERN stack with JWT authentication and secure APIs.",
+            "Developed a modern Notes Manager Application with JWT authentication, Email and SMS OTP verification, password reset functionality, protected REST APIs, role-based access control, and a complete admin dashboard for managing users and notes.",
 
             "tech": [
 
-                "React",
+                "React.js",
+
+                "TypeScript",
 
                 "Node.js",
 
-                "Express",
+                "Express.js",
 
                 "MongoDB",
 
-                "JWT"
+                "Mongoose",
+
+                "JWT Authentication",
+
+                "Tailwind CSS",
+
+                "Nodemailer",
+
+                "Twilio"
 
             ],
 
             "features": [
 
-                "User Authentication",
+                "User Registration",
 
-                "JWT Login",
+                "JWT Authentication",
+
+                "Email OTP Verification",
+
+                "SMS OTP Verification",
+
+                "Forgot Password",
+
+                "Password Reset",
 
                 "Create Notes",
 
@@ -699,9 +396,13 @@ portfolio = {
 
                 "Delete Notes",
 
-                "Responsive Design",
+                "Responsive Dashboard",
 
-                "REST APIs",
+                "Admin Dashboard",
+
+                "User Management",
+
+                "Notes Management",
 
                 "Protected Routes"
 
@@ -709,249 +410,640 @@ portfolio = {
 
             "highlights": [
 
-                "Complete MERN Stack",
+                "Built using MERN Stack",
 
-                "JWT Authentication",
+                "Secure JWT Authentication",
 
-                "MongoDB Database",
+                "Email & SMS OTP Verification",
 
-                "REST API Integration",
+                "MongoDB Database Integration",
 
-                "Responsive UI"
+                "RESTful API Architecture",
+
+                "Role-Based Access Control",
+
+                "Password Hashing with bcrypt",
+
+                "Responsive React Frontend"
 
             ],
 
             "responsibilities": [
 
-                "Frontend Development",
+                "Designed MongoDB Database",
 
-                "Backend Development",
+                "Developed REST APIs using Express.js",
 
-                "API Development",
+                "Implemented JWT Authentication",
 
-                "Authentication",
+                "Integrated Email OTP using Nodemailer",
 
-                "Database Design"
+                "Integrated SMS OTP using Twilio",
+
+                "Built React Frontend",
+
+                "Created Admin Dashboard",
+
+                "Tested APIs and Application Flow"
 
             ],
 
             "learning": [
 
-                "MongoDB",
+                "JWT Authentication",
 
-                "Express",
+                "REST API Development",
 
-                "React",
+                "MongoDB & Mongoose",
 
-                "Node.js",
+                "OTP Authentication",
 
-                "JWT Authentication"
+                "React State Management",
+
+                "Backend Security",
+
+                "Role-Based Authorization",
+
+                "Full Stack Application Development"
 
             ],
 
             "future_improvements": [
 
-                "Image Upload",
-
                 "Rich Text Editor",
 
-                "Sharing Notes",
+                "Note Categories",
+
+                "Search & Filters",
+
+                "File & Image Upload",
+
+                "Archive Notes",
 
                 "Dark Mode",
 
-                "Cloud Backup"
+                "Cloud Deployment",
+
+                "Docker Support",
+
+                "Real-time Sync",
+
+                "AI Note Summarization"
 
             ],
 
-            "github": "",
+            "github": "https://github.com/kollasagar18/Notes-Manager-App.git",
 
-            "demo": ""
+            "demo": "https://notes-manager-app-user.netlify.app/"
 
-        }
+        },
+                        # =====================================================
+                # PROJECT 3
+                # =====================================================
+
+                {
+        "id": 3,
+        "featured": True,
+        "title": "PrimeTrade Product Management System",
+        "category": "Backend + Full Stack Development",
+        "status": "Completed",
+        "role": "Backend Developer",
+        "team": "Individual",
+        "duration": "5 Days",
+        "image": "/projects/primetrade.png",
+
+        "description": "A secure full-stack Product Management System developed for the PrimeTrade Backend Developer Internship Assignment. The application provides JWT authentication, role-based authorization (Admin/User), complete product CRUD operations, a React dashboard, Swagger API documentation, and a MySQL database using Django REST Framework.",
+
+        "problem": "Businesses require a secure product management platform where administrators can manage products while regular users can securely access product information. The system must support authentication, authorization, REST APIs, and scalable backend architecture.",
+
+        "solution": "Developed a production-style full-stack application using Django REST Framework and React. Implemented JWT authentication, role-based access control, RESTful CRUD APIs, Swagger documentation, MySQL integration, protected routes, and a responsive frontend for secure product management.",
+
+        "tech": [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "React.js",
+            "Vite",
+            "MySQL",
+            "JWT Authentication",
+            "Simple JWT",
+            "Tailwind CSS",
+            "Axios",
+            "React Router",
+            "DRF Spectacular (Swagger)",
+            "Sonner"
+        ],
+
+        "features": [
+            "User Registration",
+            "User Login",
+            "JWT Authentication",
+            "Role-Based Access Control",
+            "Protected Routes",
+            "Admin Dashboard",
+            "Product Dashboard",
+            "Create Product",
+            "View Products",
+            "Update Product",
+            "Delete Product",
+            "Swagger API Documentation",
+            "Responsive UI",
+            "Toast Notifications"
+        ],
+
+        "highlights": [
+            "Built using Django REST Framework and React",
+            "JWT Authentication with Access & Refresh Tokens",
+            "Custom User Model with Admin and User Roles",
+            "RESTful API Architecture",
+            "Swagger API Documentation",
+            "MySQL Database Integration",
+            "Role-Based Authorization",
+            "Reusable React Components",
+            "Responsive Tailwind CSS Interface",
+            "Protected API Endpoints"
+        ],
+
+        "responsibilities": [
+            "Designed project architecture",
+            "Developed authentication APIs",
+            "Implemented JWT authentication",
+            "Created custom user model",
+            "Implemented role-based authorization",
+            "Designed MySQL database schema",
+            "Built Product CRUD REST APIs",
+            "Integrated Swagger documentation",
+            "Developed React frontend",
+            "Integrated frontend with backend APIs using Axios",
+            "Implemented protected routes",
+            "Tested APIs using Postman and Swagger"
+        ],
+
+        "learning": [
+            "JWT Authentication",
+            "Role-Based Authorization",
+            "REST API Development",
+            "Django REST Framework",
+            "React API Integration",
+            "Axios",
+            "Swagger Documentation",
+            "MySQL Database Design",
+            "Protected Routing",
+            "Backend Project Structure"
+        ],
+
+        "future_improvements": [
+            "Search Products",
+            "Pagination",
+            "Product Categories",
+            "Image Upload",
+            "Redis Caching",
+            "Docker Deployment",
+            "CI/CD Pipeline",
+            "Unit Testing",
+            "Activity Logs",
+            "Microservices Architecture"
+        ],
+
+        "github": "https://github.com/kollasagar18/prime-backend-assignment.git",
+        "demo": "https://drive.google.com/file/d/1_4gKlnGgmFbqjHdS8jZUbrNyQ73EcqPo/view?usp=sharing"
+        },
+
+                # =====================================================
+                # PROJECT 4
+                # =====================================================
+        {
+        "id": 4,
+        "featured": True,
+        "title": "VIKMO Inventory Management System",
+        "category": "Backend + Full Stack Development",
+        "status": "Completed",
+        "role": "Backend Developer",
+        "team": "Individual",
+        "duration": "5 Days",
+        "image": "/projects/vikmo.png",
+
+        "description": "A production-style full-stack Inventory Management System developed as part of the VIKMO Python/Django Backend Internship Assignment. The application enables businesses to manage products, inventory, dealers, and orders through secure REST APIs. It includes inventory validation, transactional order processing, stock deduction, delivery management, channel synchronization, and a responsive React dashboard powered by Django REST Framework and PostgreSQL.",
+
+        "problem": "Businesses require a centralized inventory management solution to efficiently manage products, stock levels, dealers, and order processing. The system should prevent overselling, maintain inventory consistency, support dealer management, and provide scalable REST APIs for frontend integration.",
+
+        "solution": "Developed a production-ready backend using Django REST Framework with PostgreSQL and a React frontend. Implemented Product, Inventory, Dealer, Order, and Order Item modules with complete CRUD operations, transactional order confirmation, inventory validation, automatic stock deduction, channel synchronization, RESTful APIs, and a responsive dashboard.",
+
+        "tech": [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "React.js",
+            "Vite",
+            "PostgreSQL",
+            "Axios",
+            "Bootstrap",
+            "Postman",
+            "Git",
+            "GitHub",
+            "Render"
+        ],
+
+        "features": [
+            "Product Management",
+            "Inventory Management",
+            "Dealer Management",
+            "Order Management",
+            "Order Item Management",
+            "Inventory Validation",
+            "Automatic Stock Deduction",
+            "Order Confirmation",
+            "Order Delivery",
+            "Transaction Management",
+            "Channel Sync API",
+            "RESTful CRUD APIs",
+            "Responsive Dashboard",
+            "API Testing with Postman"
+        ],
+
+        "highlights": [
+            "Built using Django REST Framework and React",
+            "PostgreSQL Relational Database",
+            "Complete Inventory & Order Management",
+            "Automatic Inventory Deduction",
+            "Stock Availability Validation",
+            "Transactional Order Processing",
+            "Concurrency Handling using transaction.atomic()",
+            "Database Row Locking using select_for_update()",
+            "RESTful API Architecture",
+            "Responsive React Dashboard"
+        ],
+
+        "responsibilities": [
+            "Designed project architecture",
+            "Designed relational database schema",
+            "Developed Product CRUD APIs",
+            "Developed Inventory Management APIs",
+            "Implemented Dealer Management",
+            "Built Order Processing Module",
+            "Implemented Order Item Management",
+            "Developed Inventory Validation Logic",
+            "Implemented Automatic Stock Deduction",
+            "Handled Order Confirmation and Delivery",
+            "Implemented Channel Sync API",
+            "Integrated React frontend with Django APIs",
+            "Tested APIs using Postman",
+            "Prepared project documentation and deployment"
+        ],
+
+        "learning": [
+            "Django REST Framework",
+            "REST API Development",
+            "React API Integration",
+            "Axios",
+            "PostgreSQL Database Design",
+            "Relational Database Modeling",
+            "Transaction Management",
+            "Concurrency Handling",
+            "Inventory Management Logic",
+            "Backend Project Architecture",
+            "API Testing",
+            "Deployment on Render"
+        ],
+
+        "future_improvements": [
+            "JWT Authentication",
+            "Role-Based Access Control",
+            "Search and Filtering",
+            "Pagination",
+            "Inventory Alerts",
+            "Dashboard Analytics",
+            "CSV Import & Export",
+            "Email Notifications",
+            "Docker Deployment",
+            "Redis Caching",
+            "CI/CD Pipeline",
+            "Unit & Integration Testing"
+        ],
+
+        "github": "https://github.com/kollasagar18/vikmo-inventory-management.git",
+        "demo": "https://drive.google.com/file/d/155LLy2hlBWvWt2ymXUTGcT3ktmHNQPeZ/view?usp=sharing"
+        }],
+        
+    # =====================================================
+# EXPERIENCE
+# =====================================================
+
+"experience": [
+
+    {
+        "id": 1,
+
+        "company": "Sarva Suvidhaen Pvt Ltd",
+
+        "role": "Software Developer Intern",
+
+        "logo": "/experience/sarva.png",
+
+        "location": "Remote",
+
+        "duration": "Aug 2025 - Dec 2025",
+
+        "description":
+        "Worked as a Backend Developer building scalable REST APIs, authentication systems, backend modules, and database-driven features for an e-commerce platform using Python, Django and MySQL.",
+
+        "responsibilities": [
+
+            "Designed scalable REST APIs using Django REST Framework",
+
+            "Implemented JWT Authentication and user authorization",
+
+            "Developed backend business logic",
+
+            "Optimized MySQL queries",
+
+            "Integrated frontend with backend APIs",
+
+            "Performed API testing using Postman",
+
+            "Fixed production bugs",
+
+            "Collaborated with development team",
+
+            "Maintained API documentation"
+
+        ],
+
+        "achievements": [
+
+            "Developed multiple production-ready REST APIs",
+
+            "Improved API performance through query optimization",
+
+            "Implemented secure authentication system",
+
+            "Successfully completed internship project"
+
+        ],
+
+        "technologies": [
+
+            "Python",
+
+            "Django",
+
+            "Django REST Framework",
+
+            "REST APIs",
+
+            "MySQL",
+
+            "Postman",
+
+            "Git",
+
+            "GitHub"
+
+        ],
+
+        "certificate": "/certificates/sarva-certificate.pdf",
+
+        "companyWebsite": "https://suvidhaen.com/"
+
+    },
+
+    {
+
+        "id": 2,
+
+        "company": "Datapro Computers Pvt Ltd",
+
+        "role": "Software Developer Intern",
+
+        "logo": "/experience/datapro.png",
+
+        "location": "Visakhapatnam",
+
+        "duration": "Sep 2023 - Jul 2024",
+
+        "description":
+        "Worked on backend development of a House Rental Platform using Python and MySQL. Built CRUD modules, managed databases, tested APIs and collaborated with frontend developers.",
+
+        "responsibilities": [
+
+            "Developed backend modules",
+
+            "Implemented CRUD functionality",
+
+            "Managed MySQL database",
+
+            "Performed API testing",
+
+            "Debugged backend issues",
+
+            "Integrated frontend with backend",
+
+            "Maintained project documentation",
+
+            "Improved application reliability"
+
+        ],
+
+        "achievements": [
+
+            "Built multiple backend modules",
+
+            "Improved database performance",
+
+            "Successfully delivered internship project",
+
+            "Strengthened Python backend development skills"
+
+        ],
+
+        "technologies": [
+
+            "Python",
+
+            "MySQL",
+
+            "Postman",
+
+            "Git",
+
+            "JavaScript"
+
+        ],
+
+        "certificate": "/certificates/python.png",
+
+        "companyWebsite": "https://www.datapro.in/"
+
+    },{
+    "id": 3,
+
+    "company": "International Institute of Digital Technologies (IIDT)",
+
+    "role": "Generative AI Intern",
+
+    "logo": "/experience/iidt.png",
+
+    "location": "Tirupati, Andhra Pradesh",
+
+    "duration": "May 2024 - Jul 2024",
+
+    "description":
+    "Completed an 8-week internship focused on Generative AI, ChatGPT, Large Language Models (LLMs), and Prompt Engineering. Built hands-on knowledge of AI tools and practical Generative AI applications.",
+
+    "responsibilities": [
+
+        "Worked with ChatGPT and Generative AI concepts",
+
+        "Learned Prompt Engineering techniques",
+
+        "Explored Large Language Models (LLMs)",
+
+        "Developed AI-powered application prototypes",
+
+        "Applied AI tools for automation and productivity",
+
+        "Completed hands-on assignments and AI use cases",
+
+        "Collaborated on practical AI learning projects",
+
+        "Documented project findings and AI workflows"
 
     ],
 
+    "achievements": [
 
-        # =====================================================
-    # EXPERIENCE
-    # =====================================================
+        "Successfully completed an 8-week Generative AI Internship",
 
-    "experience": [
+        "Gained hands-on experience with ChatGPT and LLMs",
 
-        {
+        "Learned Prompt Engineering and AI application development",
 
-            "id": 1,
+        "Strengthened practical knowledge of modern AI technologies"
 
-            "company": "Sarva Suvidhaen Pvt Ltd",
+    ],
 
-            "role": "Software Developer Intern",
+    "technologies": [
 
-            "location": "Remote",
+        "Python",
 
-            "duration": "Aug 2025 - Dec 2025",
+        "ChatGPT",
 
-            "description":
-            "Worked as a Backend Developer building scalable web applications and REST APIs.",
+        "Generative AI",
 
-            "responsibilities": [
+        "Prompt Engineering",
 
-                "Developed REST APIs",
+        "Large Language Models (LLMs)",
 
-                "Implemented Authentication",
+        "OpenAI"
 
-                "Database Design",
+    ],
 
-                "Backend Development",
+    "certificate": "/certificates/generative-ai.png",
 
-                "API Testing using Postman",
+    "companyWebsite": "https://iidt.ap.gov.in/"
+}
 
-                "Bug Fixing",
+],
+            # =====================================================
+            # CERTIFICATES
+            # =====================================================
 
-                "Code Optimization"
+            "certificates":
+                [
+  
+            {
+    "id":1,
 
+    "title":"Python Full Stack Development",
+
+    "category":"Training",
+
+    "organization":"DataPro Computers Pvt. Ltd.",
+
+    "date":"2023",
+
+    "image":"/certificates/images/python-fullstack.jpg",
+
+    "pdf":"/certificates/cpdf/Python_Full_Stack_Certificate.pdf"
+},
+{
+    "id":2,
+
+    "title":"Data Science Internship",
+
+    "category":"Internship",
+
+    "organization":"DataPro Computers Pvt. Ltd.",
+
+    "date":"2025",
+
+    "image":"/certificates/images/datascience.jpg",
+
+    "pdf":"/certificates/cpdf/Data_Science_Internship_Certificate.pdf"
+},
+{
+    "id":3,
+
+    "title":"ChatGPT & Generative AI Internship",
+
+    "category":"Internship",
+
+    "organization":"IIDT & Blackbuck Engineers",
+
+    "date":"2024",
+
+    "image":"/certificates/images/chatgpt-ai.jpg",
+
+    "pdf":"/certificates/cpdf/ChatGPT_Generative_AI_Certificate.pdf"
+},
+{
+    "id":4,
+
+    "title":"Data Science 101",
+
+    "category":"IBM",
+
+    "organization":"IBM SkillsBuild",
+
+    "date":"2023",
+
+    "image":"/certificates/images/ibm.jpg",
+
+    "pdf":"/certificates/cpdf/IBM_Data_Science_101_Certificate.pdf"
+},
+{
+    "id":5,
+
+    "title":"Privacy and Security in Online Social Media",
+
+    "category":"NPTEL",
+
+    "organization":"IIT hyderabad",
+
+    "date":"2025",
+
+    "image":"/certificates/images/nptel.jpg",
+
+    "pdf":"/certificates/cpdf/NPTEL_Certificate.pdf"
+}
             ],
-
-            "technologies": [
-
-                "Python",
-
-                "Django",
-
-                "REST API",
-
-                "MySQL",
-
-                "Postman",
-
-                "Git"
-
-            ]
-
-        },
-
-        {
-
-            "id": 2,
-
-            "company": "Datapro Computers Pvt Ltd",
-
-            "role": "Software Developer Intern",
-
-            "location": "Visakhapatnam",
-
-            "duration": "Sep 2023 - Jul 2024",
-
-            "description":
-            "Worked on backend modules for a House Rental Platform using Python and MySQL.",
-
-            "responsibilities": [
-
-                "Backend Development",
-
-                "Database Management",
-
-                "CRUD Operations",
-
-                "Testing",
-
-                "Bug Fixes"
-
-            ],
-
-            "technologies": [
-
-                "Python",
-
-                "MySQL",
-
-                "HTML",
-
-                "CSS",
-
-                "JavaScript"
-
-            ]
-
-        }
-
-    ],
-
-    # =====================================================
-    # CERTIFICATES
-    # =====================================================
-
-    "certificates": [
-
-        {
-
-            "title": "Python Full Stack Development",
-
-            "issuer": "DataPro",
-
-            "year": "2024"
-
-        },
-
-        {
-
-            "title": "IBM Data Science",
-
-            "issuer": "IBM",
-
-            "year": "2024"
-
-        },
-
-        {
-
-            "title": "Django Backend Development",
-
-            "issuer": "Self Learning",
-
-            "year": "2025"
-
-        },
-
-        {
-
-            "title": "Cyber Security",
-
-            "issuer": "NPTEL",
-
-            "year": "2024"
-
-        },
-
-        {
-
-            "title": "REST API Development",
-
-            "issuer": "Self Learning",
-
-            "year": "2025"
-
-        }
-
-    ],
 
     # =====================================================
     # ACHIEVEMENTS
     # =====================================================
 
     "achievements": [
-
-        "Solved 500+ LeetCode Problems",
-
-        "Completed 2 Software Development Internships",
-
-        "Built 5+ Full Stack Projects",
-
-        "Developed AI Powered Applications",
-
-        "Strong Backend Development Skills"
-
-    ],
-
+    "Solved 500+ LeetCode Problems",
+    "Completed 2 Software Development Internships",
+    "Built 6+ Full Stack & Backend Projects",
+    "Developed AI-Powered Applications using Python and Machine Learning",
+    "Designed and Developed REST APIs using Django REST Framework & FastAPI",
+    "Earned Certifications in Data Science, Generative AI, and Cyber Security",
+    "Completed Data Science and Generative AI Internships",
+    "Implemented Secure Authentication and Database-Driven Applications",
+    "Hands-on Experience with Python, Django, FastAPI, SQL, and Git",
+    "Actively Applying Software Engineering Best Practices in Real-World Projects"
+],
     # =====================================================
     # LANGUAGES
     # =====================================================
@@ -969,21 +1061,22 @@ portfolio = {
     # =====================================================
 
     "interests": [
-
-        "Backend Development",
-
-        "Artificial Intelligence",
-
-        "System Design",
-
-        "Cyber Security",
-
-        "REST APIs",
-
-        "Open Source"
-
-    ]
-
+    "Backend Development",
+    "Software Engineering",
+    "Python Development",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Generative AI",
+    "REST API Development",
+    "System Design",
+    "Database Design",
+    "Data Science",
+    "Cyber Security",
+    "Cloud Computing",
+    "Open Source Contribution",
+    "Problem Solving",
+    "Competitive Programming"
+]
 
 
 }

@@ -1103,7 +1103,7 @@ def detect_intent(question):
             }
 
         }
-
+    
 
     if any(word in question for word in [
 

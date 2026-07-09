@@ -131,7 +131,7 @@ const HeroRight = () => {
         />
 
         <img
-          src={profile.image}
+          src="/public/profile.png"
           alt={profile.name}
           className="
           relative
