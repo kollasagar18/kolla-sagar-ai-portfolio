@@ -8,6 +8,7 @@ from pathlib import Path
 from decouple import config
 import dj_database_url
 
+
 # --------------------------------------------------
 # Base Directory
 # --------------------------------------------------
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
     "rest_framework",
 
     "assistant",
+    "analytics",
 
 ]
 
