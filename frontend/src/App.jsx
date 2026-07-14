@@ -16,7 +16,7 @@ function App() {
       try {
 
         const response = await fetch(
-          "https://portfolio-api.onrender.com/api/portfolio/"
+          "https://kolla-sagar-ai-portfolio.onrender.com/api/portfolio/"
           //"http://127.0.0.1:8000/api/portfolio/"
         );
 
