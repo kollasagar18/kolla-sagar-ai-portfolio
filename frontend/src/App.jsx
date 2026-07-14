@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 
 import Home from "./pages/Home/Home";
 import MainLayout from "./layouts/MainLayout";
-
 import LoadingScreen from "./components/loading/LoadingScreen";
 
 function App() {
@@ -15,9 +14,14 @@ function App() {
 
       try {
 
+        // Count this visitor
+        await fetch(
+          "https://kolla-sagar-ai-portfolio.onrender.com/analytics/count/"
+        );
+
+        // Check whether the backend is awake
         const response = await fetch(
           "https://kolla-sagar-ai-portfolio.onrender.com/api/portfolio/"
-          //"http://127.0.0.1:8000/api/portfolio/"
         );
 
         if (response.ok) {
