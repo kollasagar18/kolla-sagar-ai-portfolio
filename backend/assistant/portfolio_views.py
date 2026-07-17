@@ -3,9 +3,20 @@ from django.http import JsonResponse
 from .portfolio_data import portfolio
 from .visitor_manager import update_views, get_views
 
+def health(request):
+    return JsonResponse({
+        "status": "ok"
+    })
 
-def portfolio_data(request):
+#def portfolio_data(request):
     # Count every portfolio visit
+#    update_views()
+
+#    return JsonResponse(portfolio, safe=False)
+def portfolio_data(request):
+
+    print(">>>>>>>> PORTFOLIO API CALLED <<<<<<<<")
+
     update_views()
 
     return JsonResponse(portfolio, safe=False)

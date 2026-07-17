@@ -14,14 +14,13 @@ function App() {
 
       try {
 
-        // Count this visitor
-        await fetch(
-          "https://kolla-sagar-ai-portfolio.onrender.com/analytics/count/"
-        );
+        
 
         // Check whether the backend is awake
         const response = await fetch(
-          "https://kolla-sagar-ai-portfolio.onrender.com/api/portfolio/"
+          "https://kolla-sagar-ai-portfolio.onrender.com/api/health/"
+          //"http://127.0.0.1:8000/api/health/"
+      
         );
 
         if (response.ok) {

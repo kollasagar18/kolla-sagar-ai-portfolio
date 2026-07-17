@@ -1,4 +1,3 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 import App from "./App";
@@ -9,14 +8,10 @@ import { PortfolioProvider } from "./context/PortfolioContext";
 
 createRoot(document.getElementById("root")).render(
 
-  <StrictMode>
+  <PortfolioProvider>
 
-    <PortfolioProvider>
+    <App />
 
-      <App />
-
-    </PortfolioProvider>
-
-  </StrictMode>
+  </PortfolioProvider>
 
 );

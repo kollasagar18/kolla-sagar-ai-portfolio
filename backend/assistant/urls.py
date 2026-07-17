@@ -6,6 +6,7 @@ from .portfolio_views import (
     portfolio_data,
     portfolio_views,
     about,
+    health,
     projects,
     skills,
     experience,
@@ -28,5 +29,6 @@ urlpatterns = [
     path("experience/", experience),
     path("certificates/", certificates),
     path("contact/", contact),
+    path("health/", health),
 
 ]
