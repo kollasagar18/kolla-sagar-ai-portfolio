@@ -25,7 +25,7 @@ const LoadingCard = () => {
       </h1>
 
       <p className="text-cyan-400 text-xl mt-3">
-        AI Developer Portfolio
+        Python Developer Portfolio
       </p>
 
       <p className="text-slate-400 mt-10 text-lg">
