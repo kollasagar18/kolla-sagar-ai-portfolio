@@ -963,7 +963,31 @@ def detect_intent(question):
             }
 
         }
+    # =====================================================
+    # Personal Information
+    # =====================================================
 
+    if any(word in question for word in [
+        "girlfriend",
+        "gf",
+        "love",
+        "lover",
+        "partner",
+        "relationship",
+        "wife",
+        
+        ]):
+
+        love = portfolio["love"]
+
+        return {
+            "handled": True,
+            "response": {
+                "type": "love",
+                "message": "Here is the requested personal information.",
+                "data": love
+            }
+        }
     # =====================================================
     # Contact
     # =====================================================
