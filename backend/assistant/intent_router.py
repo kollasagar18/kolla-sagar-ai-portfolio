@@ -975,17 +975,22 @@ def detect_intent(question):
         "partner",
         "relationship",
         "wife",
-        
-        ]):
+    ]):
 
         love = portfolio["love"]
 
         return {
             "handled": True,
             "response": {
-                "type": "love",
-                "message": "Here is the requested personal information.",
-                "data": love
+                "type": "text",
+                "message": f"""
+    ❤️ Love Information
+    Description:
+    {love["description"]}
+    Website:
+    {love["web"]}
+    """,
+                "data": {}
             }
         }
     # =====================================================
