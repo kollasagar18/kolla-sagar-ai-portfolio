@@ -174,15 +174,18 @@ portfolio = {
     # CONTACT
     # =====================================================
     "love": {
-        "started": "January 2022",
+       
         "web": "https://love-sit.netlify.app/",
-        "partner_name": "Not Public",
+        
+       
         "description": """
-        One of the most meaningful parts of my life. Since January 2022, this journey
-has been filled with trust, mutual respect, unwavering support, and countless
-memories. It reminds me that success is even more meaningful when shared with
-someone who believes in you through every challenge and every achievement.
+        One of the most meaningful chapters of my life. Since 2022, this journey has
+        been built on trust, understanding, unwavering support, and countless beautiful
+        memories. Through every challenge and every achievement, it has reminded me
+        that success feels even more meaningful when shared with someone who truly
+        believes in you.
         """
+        
     
 },
     "contact": {
